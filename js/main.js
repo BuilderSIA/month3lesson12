@@ -224,14 +224,12 @@ function myFunction() {
     let index;
     let text;
     let name = prompt("ismingizni kiriting");
-    if (str.length>0){
       index = name[name.length - 1]
-      if(index == 'a' || index == 'l' || index == 'n' || index == 'o'){
+      if(index == 'a' || index == 'o' || index == 'l' ){
         text = 'Hush kelibsiz, yaxshi qiz!'        
       } else {
         text = 'Hush kelibsiz!'
       }
-    }
     document.getElementById("demo17").innerHTML = text;
   }
 // -masala
